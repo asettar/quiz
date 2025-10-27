@@ -58,18 +58,18 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
     box-shadow: 10px 10px 20px  grey;
-    width: 350px;
+    width: 330px;
 }
 
 .card p {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .card img {
     display: block;
-    /* margin-bottom: 200px; */
     position: absolute;
-    right: 20px;
+    right: 25px;
     bottom: 30px;
+    width: 50px;
 }
 
 
@@ -116,4 +116,23 @@ body {
 #middle-bottom{
     border: none;
     border-top : 4px solid hsl(34, 97%, 64%);
+}
+
+@media screen and (min_width : 400px) {
+    body {
+        display: none;
+        color: white;
+    }
+    .down {
+        display: flex;
+        flex-direction: column;
+    }
+    .middle {
+        display: flex;
+        flex-direction: column;
+    }
+    #leftcard, #rightcard {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
 }
