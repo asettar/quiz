@@ -118,11 +118,8 @@ body {
     border-top : 4px solid hsl(34, 97%, 64%);
 }
 
-@media screen and (min_width : 400px) {
-    body {
-        display: none;
-        color: white;
-    }
+
+@media screen and (max-width : 800px) {
     .down {
         display: flex;
         flex-direction: column;
