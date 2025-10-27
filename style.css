@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.top {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.top h1 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.top h5 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: hsl(212, 6%, 44%);
+}
+
+.top p {
+    margin-top: 10px;
+    font-weight: 200;
+    color: hsl(212, 6%, 44%);;
+
+}
+
+.top p {
+    font-weight: 400;
+}
+
+.down {
+    /* margin: 200px 200px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    /* border: 2px solid red; */
+}
+
+
+.card {
+    border: 1.5px solid blue;
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px  grey;
+    width: 350px;
+}
+
+.card p {
+    margin-bottom: 100px;
+}
+.card img {
+    display: block;
+    /* margin-bottom: 200px; */
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+#leftcard, #rightcard {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card h2 {
+    color : hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: hsl(212, 6%, 44%);
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+#leftcard {
+    border: none;
+    border-top : 4px solid hsl(180, 62%, 55%);
+}
+
+#rightcard {
+    border: none;
+    border-top : 4px solid hsl(212, 86%, 64%);
+}
+
+#middle-top {
+    border: none;
+    border-top : 4px solid hsl(0, 78%, 62%);
+}
+
+#middle-bottom{
+    border: none;
+    border-top : 4px solid hsl(34, 97%, 64%);
+}
